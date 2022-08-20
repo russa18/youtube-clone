@@ -1,0 +1,14 @@
+.sidebarelement{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+
+}
+.sidebarelement-img{
+margin: 0 20px 0 30px;
+}

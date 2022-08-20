@@ -1,0 +1,10 @@
+.home-wrapper{
+    /* background-color: red; */
+    position: absolute;
+    top:60px;
+    left: 14rem;
+    width: 83vw;
+   min-height: fit-content;
+    margin: 0;
+
+}

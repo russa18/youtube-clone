@@ -1,0 +1,57 @@
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    z-index: 2020;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+
+.nav-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px ;
+}
+.nav-brand-logo{
+
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.nav-brand-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-search{
+    width: 50%;
+    display: flex;
+    /* margin:5px 0; */
+    text-decoration: none;
+    margin-left: 85px;
+
+}
+.search-box{
+
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box  ;
+    text-decoration: none;
+    border: 1px solid gainsboro;
+
+    
+    font-family: Roboto,sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.signin-btn{
+    margin-right: 20px;
+}
