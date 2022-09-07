@@ -1,10 +1,12 @@
-.home-wrapper{
+.home-wrapper {
     /* background-color: red; */
     position: absolute;
-    top:60px;
+    top: 60px;
     left: 14rem;
     width: 83vw;
-   min-height: fit-content;
-    margin: 0;
-
+    min-height: fit-content;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

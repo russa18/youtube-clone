@@ -1,0 +1,28 @@
+.videoplayer {
+    margin: 60px 0 0 230px;
+    width: 60%;
+    padding: 2%;
+}
+
+.videoplayer__videodetails {
+    width: 640px;
+}
+
+/* 
+.videoplayer__videoinfo{
+    padding: 2%;
+} */
+
+.videoplayer-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 100vh;
+}
+
+.videoplayer__suggested {
+    width: 30%;
+    min-width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+}
