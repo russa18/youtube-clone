@@ -1,55 +1,61 @@
-.videoinfo__likes{
+.videoinfo__likes {
     display: flex;
-    
+
 }
 
-.videoinfo__stats{
+.videoinfo__stats {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.videoinfo__avatar{
+.videoinfo__avatar {
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
-    
+
 }
-.videoinfo__channel{
+
+.videoinfo__channel {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.channel-img{
+.channel-img {
     display: flex;
 }
-.videoinfo__channelinfo{
+
+.videoinfo__channelinfo {
     margin-left: 1rem;
 }
 
-.videoinfo{
+.videoinfo {
     padding: 2%;
 }
-.videoinfo__sec{
+
+.videoinfo__sec {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 5px;
 }
 
-.videoinfo__icon{
+.videoinfo__icon {
     margin-right: 5px;
 }
-.videoinfo__channeltitle{
+
+.videoinfo__channeltitle {
     margin: 0px;
     font-size: medium;
 }
-.videoinfo__channelsubs{
+
+.videoinfo__channelsubs {
     margin: 0px;
     font-size: small;
 }
-.videoinfo__headline{
+
+.videoinfo__headline {
     margin: 0;
     font-weight: 200;
     font-size: larger;

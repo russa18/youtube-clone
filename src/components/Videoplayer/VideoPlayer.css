@@ -26,3 +26,10 @@
     margin: auto;
     margin-top: 100px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .videoplayer__suggested {
+        display: none;
+    }
+}

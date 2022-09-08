@@ -20,7 +20,7 @@ const VideoPlayer = () => {
       .get(`https://www.googleapis.com/youtube/v3/videos?part=snippet%2C%20statistics&id=${videoId}&key=AIzaSyDCks-rtf-MeMgTeZBe87D5AajWGv3hXRI
           `)
       .then(response => {
-        console.log(response.data)
+        // console.log(response.data)
         createVideoInfo(response.data['items'][0]);
       })
       .catch(error => {
@@ -65,32 +65,32 @@ const VideoPlayer = () => {
   return (
     <div className='videoplayer-main'>
 
-    <div className='videoplayer'>
-      <div className='videoplayer__videodetails'>
-        <div className='videoplayer__video'>
-          <Video videoId={videoId} />
-        </div>
-        <div className='videoplayer__videoinfo'>
-          <VideoInfo
-            title={videoInfo.title}
-            description={videoInfo.description}
-            publishedDate={videoInfo.publishedDate}
-            channelTitle={videoInfo.channelTitle}
-            channelImage={videoInfo.channelImage}
-            viewCount={videoInfo.viewCount}
-            likeCount={videoInfo.likeCount}
-            dislikeCount={videoInfo.dislikeCount}
-            subs={videoInfo.subs}
-          />
+      <div className='videoplayer'>
+        <div className='videoplayer__videodetails'>
+          <div className='videoplayer__video'>
+            <Video videoId={videoId} />
+          </div>
+          <div className='videoplayer__videoinfo'>
+            <VideoInfo
+              title={videoInfo.title}
+              description={videoInfo.description}
+              publishedDate={videoInfo.publishedDate}
+              channelTitle={videoInfo.channelTitle}
+              channelImage={videoInfo.channelImage}
+              viewCount={videoInfo.viewCount}
+              likeCount={videoInfo.likeCount}
+              dislikeCount={videoInfo.dislikeCount}
+              subs={videoInfo.subs}
+            />
 
+          </div>
         </div>
+
       </div>
-    
-    </div>
-    <div className='videoplayer__suggested'>
+      <div className='videoplayer__suggested'>
         RecommendedVideos
-    </div>
-       
+      </div>
+
     </div>
   )
 }

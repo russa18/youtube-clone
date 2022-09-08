@@ -55,3 +55,26 @@
 .signin-btn{
     margin-right: 20px;
 }
+
+@media screen and (max-width:600px) {
+    .nav-brand{
+        width: 20px;
+        margin-left: 25px ;
+    }   
+    
+    .search-box{
+        width: 100px;
+    }
+
+    .nav-search{
+        width: 200px;
+        margin-left: 40px;
+    }
+   
+    .nav-wrapper{
+        justify-content: space-evenly;
+        height: 50px;
+        width: 100%;
+        margin-left: 15px; 
+    }
+}

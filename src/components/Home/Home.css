@@ -10,3 +10,12 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+
+@media screen and (max-width:600px) {
+    .home-wrapper {       
+        width: 80vw;
+        margin: 0px;
+     
+    }
+}

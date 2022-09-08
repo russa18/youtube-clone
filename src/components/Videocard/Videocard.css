@@ -4,7 +4,8 @@
     min-height: fit-content;
     margin: 10px;
 }
-.video-wrapper :hover{
+
+.video-wrapper :hover {
     cursor: pointer;
 }
 
@@ -21,43 +22,42 @@
 }
 
 
-.video-title{
+.video-title {
     margin: 12px 0 4px 0;
     width: 100%;
 
-    font-family: "Roboto","Arial",sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
 
 }
 
-.yt-name{
-    font-family: "Roboto","Arial",sans-serif;
+.yt-name {
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 12px;
     line-height: 20px;
     color: #606060;
 
 }
-
-
 
 .video-details {
     display: flex;
     flex-direction: row;
 }
 
-.yt-views{
+.yt-views {
     margin-right: 5px;
 
 }
+
 .yt-counts {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: "Roboto","Arial",sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 12px;
     line-height: 20px;
     color: #606060;
-    
+
 }
